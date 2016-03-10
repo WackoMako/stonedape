@@ -16,9 +16,9 @@ Template Name: Contact Us
 			<input class="contact-input" name="submit" type="button" value="Contact Stoned Ape"> -->
 			<p>Email: <a href="mailto:stonedape@mail.com">stonedape@mail.com</a></p>
             <div id="social" class="clearfix">
-              <h3 class="col-md-12 title">Stoned Ape Network</h3>
-              <div class="col-xs-6" id="fb-icon"><a href="https://www.facebook.com/astonedape"><img src="<?php bloginfo('template_directory')?>/images/icons/w-facebook-l.png"></a></div>
-              <div class="col-xs-6" id="t-icon"><a href="https://twitter.com/_stonedape"><img src="<?php bloginfo('template_directory')?>/images/icons/w-twitter-l.png"></a></div>
+              <h2 class="col-md-12 title">Stoned Ape Network</h2>
+              <div class="col-xs-6" id="fb-icon"><a href="https://www.facebook.com/astonedape"><img src="<?php bloginfo('template_directory')?>/images/icons/social_media_facebook_b.png"></a></div>
+              <div class="col-xs-6" id="t-icon"><a href="https://twitter.com/_stonedape"><img src="<?php bloginfo('template_directory')?>/images/icons/social_media_twitter_b.png"></a></div>
             </div>
 		</form>
 <!-- 		<div id="subscribe-form">
@@ -26,7 +26,7 @@ Template Name: Contact Us
 		</div> -->
 	</div>
 	<div class="col-md-6" id="contact-right">
-		<img id="logo" src="<?php bloginfo('template_directory')?>/images/stonedape.jpg" />
+		<img id="logo" src="<?php bloginfo('template_directory')?>/images/stoned_ape_theory.jpg" />
 	</div>
 
 </div>

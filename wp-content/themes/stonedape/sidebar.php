@@ -85,9 +85,15 @@ $popularpost = new WP_Query( array( 'posts_per_page' => 4, 'meta_key' => 'wpb_po
 </div> -->
 <div class="block">
   <h4 id="title" class="clearfix">Connect</h4>
-  <div id="social-media-icons">
-    <a href="https://www.facebook.com/astonedape"><img src="<?php bloginfo('template_directory')?>/images/icons/facebook-icon-b.png"></a>
-    <a href="https://twitter.com/_stonedape"><img src="<?php bloginfo('template_directory')?>/images/icons/twitter-icon-b.png"></a>
+  <div id="social-media-icons" class="row">
+    <div class="col-md-6">
+      <a href="https://www.facebook.com/astonedape"><img src="<?php bloginfo('template_directory')?>/images/icons/facebook-icon-b.png"></a>
+    </div>
+    <div class="col-md-6">
+      <a href="https://twitter.com/_stonedape"><img src="<?php bloginfo('template_directory')?>/images/icons/twitter-icon-b.png"></a>
+    </div>
+    
+    
 <!--     <img src="<?php bloginfo('template_directory')?>/images/icons/google-icon-b.png">
     <img src="<?php bloginfo('template_directory')?>/images/icons/youtube-icon-b.png"> -->
 

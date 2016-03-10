@@ -35,35 +35,18 @@
     <!-- <img id="logo" src="<?php bloginfo('template_directory')?>/images/stoned-ape-logo-b.png" /> -->
     <div class="container" id="header-container">
       <div class="row">
-        <div id="header-logo" class="col-md-offset-4 col-md-5 col-sm-offset-0 col-sm-7 col-xs-9">
+        <div id="header-logo" class="">
           <a href="<?php echo home_url(''); ?>">
-            <h2 id="header-text-s">Stoned </h2>
-            <img id="logo" src="<?php bloginfo('template_directory')?>/images/stoned-ape-logo-b.png" />
-            <h2 id="header-text-a"> Ape</h2>
+            <i aria-hidden="true" role="presentation" aria-label="StonedApe Logo" id="logo"></i>
           </a>
         </div>
-        <div id="social-media-btns" class="col-md-offset-0 col-md-3 col-sm-offset-2 col-sm-3 col-xs-3">
+        <div id="social-media-btns">
           <a href="https://www.facebook.com/astonedape"><img class="social-media-icons" src="<?php bloginfo('template_directory')?>/images/icons/facebook-icon.png"></a>
           <a href="https://twitter.com/_stonedape"><img class="social-media-icons" src="<?php bloginfo('template_directory')?>/images/icons/twitter-icon.png"></a>
           <!-- <img class="social-media-icons" src="<?php bloginfo('template_directory')?>/images/icons/google+-icon.png">
           <img class="social-media-icons" src="<?php bloginfo('template_directory')?>/images/icons/youtube-icon.png"> -->
         </div>
       </div>
-      
-
-      <!-- Logo enter-->
-      <!-- <a href="<?php echo home_url(''); ?>">
-        <h2 id="header-text-s">Stoned </h2>
-        <img id="logo" src="<?php bloginfo('template_directory')?>/images/stoned-ape-logo-b.png" />
-        <h2 id="header-text-a"> Ape</h2>
-      </a> -->
-
-      <!--Logo left-->
-      <!-- <a href="<?php echo home_url(''); ?>">
-        <h2 id="header-text-s">Stoned </h2>
-        <img id="logo" src="<?php bloginfo('template_directory')?>/images/stoned-ape-logo-b.png" />
-        <h2 id="header-text-a"> Ape</h2>
-      </a> -->
     </div>
   </div>
   <div id="header-menu">

@@ -5,11 +5,11 @@
            <?php wp_nav_menu( array( 
            'Footer Menu' => 'Footer Menu',
            'container'   => false,
-           'menu_class'  => 'footer_nav clearfix col-md-9',
+           'menu_class'  => 'footer_nav clearfix col-md-9 col-x',
            'depth'       => 2
            ) ); ?>  
           <div class="col-md-3 footer-right">
-            <p><label><a href="<?php echo home_url('/company'); ?>">About Us</a></label></p>
+            <p><label><a href="<?php echo home_url('/index.php/about-us'); ?>">About Us</a></label></p>
             <p><label><a href="<?php echo home_url('/index.php/contact-us'); ?>">Contact Us</a></label></p>
             <p><label>Email</label> <a href="mailto:stonedape@mail.com">stonedape@mail.com</a></p>
             <div id="social" class="clearfix">

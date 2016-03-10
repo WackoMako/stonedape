@@ -52,7 +52,7 @@ input:-webkit-autofill {
 }
 
 #header {
-        height: 100px;
+        // height: 100px;
         position: fixed;
         width: 100%;
         top: 0;
@@ -106,11 +106,28 @@ input:-webkit-autofill {
         
 
         #header-logo{
-            padding-left: 0px;
+            // padding-left: 0px;
+            height: 100px;
 
             a{
                 text-decoration: none;
-                float: left;
+                width: 100%;
+                height: 100px;
+                align-items: center;
+                justify-content: center;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+
+                i{
+                    background-image: url("images/stonedape-banner.png");
+                    background-position: 0 15px;
+                    background-size: 321px 73px;
+                    background-repeat: no-repeat;
+                    height: 100px;
+                    width: 395px;
+                }
+
             }
 
             #header-text-s {
@@ -119,9 +136,11 @@ input:-webkit-autofill {
             }
 
             #logo {
-                display: inline;
-                width: 85px;
-                vertical-align: bottom;
+                // display: inline;
+                // width: 65%;
+                // height: auto;
+                // vertical-align: bottom;
+                // padding-top: 1.75%;
             }
 
             #header-text-a {
@@ -133,12 +152,15 @@ input:-webkit-autofill {
         }
 
         #social-media-btns{
-            text-align: right;
-            padding-top: 37px;
+            display: inline-flex;
+            position: absolute;
+            right: 10px;
+            top: 30px;
 
             .social-media-icons{
                 width: 30px;
                 margin: 0 0 0 5px;
+                padding-top: 5px;
             }
         }
     }
@@ -160,7 +182,7 @@ input:-webkit-autofill {
     background-color: #222;
     position: relative;
     box-shadow: 0 2px 3px rgba(0,0,0,.4);
-    margin-bottom: -48px; //Compenstae for sticky navbar jump
+    margin-bottom: -48px; //Compensate for sticky navbar jump
     letter-spacing: 1px;
 
     #hidden-logo {
@@ -217,47 +239,55 @@ input:-webkit-autofill {
     position: relative;
     padding-top: 50px;
     background-color: #fff;
-    min-height: 400px;
+    min-height: 600px;
 
-    #contact-left{
-        background-color: #222;
-        text-align: center;
-        height: 400px;
-        color: #fff !important;
-        letter-spacing: 1px;
+    #contact-us-block{
+        padding-top: 60px;
 
-        a{
-            color: #fff;
-        }
+        #contact-left{
+            background-color: #fff;
+            text-align: center;
+            color: #222 !important;
+            letter-spacing: 1px;
 
-        .title{
-            color: #fff;
-            padding-bottom: 15px;
-        }
+            a{
+                color: #222;
+            }
 
-        // .contact-input{
-        //     display: block;
-        //     margin: 0 auto;
-        //     width: 60%;
-        //     margin-top: 15px;
-        //     height: 45px;
-        //     padding: 10px;
-        //     border-radius: 5px; 
-        //     border: none;
-        // }
-        #social{
-            margin-top: 60px;
-            #t-icon{
-                padding-top: 5px;
+            .title{
+                color: #222;
+                padding-bottom: 15px;
+                font-family: "nexa-b";
+            }
+
+            // .contact-input{
+            //     display: block;
+            //     margin: 0 auto;
+            //     width: 60%;
+            //     margin-top: 15px;
+            //     height: 45px;
+            //     padding: 10px;
+            //     border-radius: 5px; 
+            //     border: none;
+            // }
+
+            #social{
+                margin-top: 60px;
+
+                .title{
+                    color: #222;
+                    padding-bottom: 15px;
+                    font-family: "nexa-b";
+                }
             }
         }
-    }
 
-    #contact-right{
-        text-align: center;
-        #logo{
-            margin: 0 auto;
-            padding-top: 60px;
+        #contact-right{
+            text-align: center;
+            margin-top: 60px;
+            #logo{
+                width: 70%;
+            }
         }
     }
 }
@@ -292,7 +322,7 @@ input:-webkit-autofill {
 
     #social-media-icons{
         img{
-            width: 30px;
+            width: 50%;
             margin-right: 33%;
         }
     }
@@ -577,7 +607,7 @@ input:-webkit-autofill {
 }
 
 footer{
-  background-color: #222222;
+  background-color: #111111;
   height: 250px;
   position: relative;
   z-index: 50;
@@ -599,7 +629,7 @@ footer{
 #footer-bottom {
     font-family: "nexa-l";
     min-height: 250px;
-    background-color: #222;
+    background-color: #111111;
     padding: 20px;
 
     .footer_nav {
@@ -638,7 +668,6 @@ footer{
 
     ul {
         list-style-type: none;
-        padding-left: 0;
 
         li {
             margin-bottom: 10px;
@@ -672,7 +701,7 @@ footer{
     }
 
     .footer-right {
-        float: right;
+        float: left;
         #social{
 
         }
@@ -688,8 +717,8 @@ footer{
 }
 
 .main-block{
-    margin-bottom: 60px;
-    margin-bottom: 30px;
+    padding-top: 30px;
+    padding-bottom: 60px;
     .blog{
         .blog-title{
             margin-top: 10px;

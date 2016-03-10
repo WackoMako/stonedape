@@ -47,7 +47,6 @@ require(['vendor/jquery.min', 'vendor/bootstrap.min'], function() {
 	$.each(route, function(k, v) {
 	    if (page == v.page) {
 	        require([v.path], function(init) {
-	        	console.log('Here');
 	            init.init();
 	        });
 	    }

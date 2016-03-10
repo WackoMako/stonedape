@@ -3,11 +3,17 @@
 	#header {
 		#header-container {
 			#header-logo {
-    		padding-left: 15px !important;
+    		// padding-left: 15px !important;
+    		#logo{
+    			float: left;
+    			}
 			}
+
+      #social-media-btns{
+        // padding-top: 5% !important;
+      }
 		}
 	}
-
   .latest-news{
     .article{
       width: 49.5% !important;
